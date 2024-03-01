@@ -1,0 +1,370 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    gap: 524px;
+    align-items: center;
+    padding-left: 70px;
+    width: 1440px;
+    height: 156px;
+}
+
+header ul {
+    display: flex;
+    gap: 104px;
+    list-style: none;
+
+
+
+}
+
+header ul li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: rgba(37, 43, 66, 1);
+    transition: 500ms;
+}
+
+.section-1-text h3 {
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    padding-top: 72px;
+    color: rgba(246, 246, 246, 1);
+
+}
+
+.section-1-text h1 {
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-top: 17px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.section-1-text h4 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-top: 17px;
+    color: rgba(246, 246, 246, 1);
+
+}
+
+.section-1 {
+    background-image: url(./pics/12th-bg.png);
+    height: 619px;
+    background-repeat: no-repeat;
+}
+
+.btn1 {
+    width: 236px;
+    height: 68px;
+    padding: 16px, 0px, 16px, 0px;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    background-color: rgba(250, 74, 12, 1);
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+}
+
+.btn1:hover{
+  transform: scale(520);
+}
+
+.btn2 {
+    width: 236px;
+    height: 68px;
+    background: transparent;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    /* text-align: left; */
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: white;
+
+}
+
+.buttons {
+    padding: 54px 521px;
+    display: flex;
+    gap: 34px;
+
+}
+
+
+
+.img-1 {
+    padding-left: 340px;
+    transform: translateY(-170px);
+}
+
+.hr {
+    margin-top: 648px;
+    margin-left: 278px;
+    width: 884px;
+    border: 3px solid rgba(228, 228, 228, 1);
+
+}
+
+
+
+.section-2 {
+    height: 1900px;
+    margin-top: 72px;
+}
+
+.section-2-title h2 {
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    padding-left: 513px;
+}
+
+.cards {
+    margin-left: 154px;
+}
+
+.card-1 {
+    height: 656px;
+    /* background-color: red; */
+    margin-top: 59px;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-1 h3 {
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: rgba(250, 74, 12, 1);
+
+}
+
+.card-1 h2 {
+
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-top: 17px;
+
+}
+
+.card-1 h4 {
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-top: 17px;
+
+}
+
+.card-2 {
+    height: 656px;
+    /* background-color: red; */
+    margin-top: 59px;
+    display: flex;
+    align-items: center;
+    gap: 118px;
+
+}
+
+.card-2 h3 {
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: rgba(250, 74, 12, 1);
+
+}
+
+.card-2 h2 {
+
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-top: 17px;
+    width: 480px;
+
+}
+
+.card-2 h4 {
+
+
+font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-top: 17px;
+
+}
+
+.right-2 {
+    margin-left: 154px;
+
+}
+
+.section-3 {
+    height: 509px;
+    background-image: url(./pics/sec-3.png);
+    background-repeat: no-repeat;
+    margin-top: 354px;
+}
+
+.section-3 h2 {
+
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 130px;
+
+}
+
+.section-3 h4 {
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    opacity: 90%;
+    margin-top: 20px;
+
+}
+
+.btn3 {
+    width: 142px;
+    height: 64px;
+    padding: 18px, 31px, 18px, 31px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    background-color: rgba(250, 74, 12, 1);
+    border-style: none;
+    color: white;
+
+
+}
+
+.btn4 {
+    width: 173px;
+    height: 60px;
+    padding: 16px, 45px, 16px, 45px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+
+
+}
+
+.buttons-2 {
+    display: flex;
+    gap: 16px;
+    padding-top: 50px;
+    padding-left: 554px;
+}
+
+footer {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    gap: 225px;
+    padding-left: 186px;
+}
+
+i {
+    font-size: 27px;
+    color: rgba(250, 74, 12, 1);
+    padding-top: 24px;
+}
+
+.icons {
+    display: flex;
+    gap: 28px;
+}
+
+p {
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    padding-top: 24px;
+    padding-left: 145px;
+
+}
+
+a:hover {
+    color: rgba(250, 74, 12, 1);
+    font-size: larger;
+}
